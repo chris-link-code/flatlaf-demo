@@ -2,7 +2,7 @@
 <configuration>
 
     <!--<property name="server_name" value="operation" />-->
-    <property name="log_dir" value="./log"/>
+    <property name="log_dir" value="${user.home}/log/flatlaf"/>
     <property name="maxFileSize" value="50MB"/>
     <property name="maxHistory" value="180"/>
 
