@@ -142,6 +142,8 @@
                     </execution>-->
                     <execution>
                         <!-- //TODO 打包出来的安装包安装后无法启动 -->
+                        <!-- 原因是可执行文件无法执行 -->
+                        <!-- /Application/flatlaf.app/Contents/MacOS/universalJavaApplicationStub -->
                         <id>bundling-for-mac</id>
                         <phase>package</phase>
                         <goals>
