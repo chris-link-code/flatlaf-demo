@@ -37,6 +37,11 @@ public class FlatLafDemo {
 
     public static void main(String[] args) {
         log.info("launch application ...");
+        log.info("java.version: " + System.getProperty("java.version"));
+        //log.info("java.specification.version: " + System.getProperty("java.specification.version"));
+        //log.info("java.vm.name: " + System.getProperty("java.vm.name"));
+        log.info("sun.arch.data.model: " + System.getProperty("sun.arch.data.model"));
+        log.info("os.arch: " + System.getProperty("os.arch"));
         // macOS  (see https://www.formdev.com/flatlaf/macos/)
         if (SystemInfo.isMacOS) {
             // enable screen menu bar
